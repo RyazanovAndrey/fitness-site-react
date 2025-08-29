@@ -1,10 +1,12 @@
+import Header from "@/components/Header"
+import Home from "@/components/Home"
+
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <>
+      <Header />
+      <Home />
+    </>
   )
 }
 
