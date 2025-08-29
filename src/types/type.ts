@@ -6,3 +6,5 @@ export const navLinks: { href: SectionId, title: string }[] = [
     { href: 'ourclasses', title: 'Ourclasses' },
     { href: 'contacts', title: 'Contacts' },
 ]
+
+export const sponsorImg: string[] = ['images/SponsorForbes.png', 'images/SponsorFortune.png', 'images/SponsorRedBull.png', 'images/SponsorForbes.png', 'images/SponsorFortune.png', 'images/SponsorRedBull.png']
