@@ -1,3 +1,5 @@
+import type { JSX } from "react"
+
 export type SectionId = '#home' | '#benefits' | '#ourclasses' | '#contacts'
 
 export const navLinks: { href: SectionId, title: string }[] = [
@@ -8,3 +10,9 @@ export const navLinks: { href: SectionId, title: string }[] = [
 ]
 
 export const sponsorImg: string[] = ['images/SponsorForbes.png', 'images/SponsorFortune.png', 'images/SponsorRedBull.png', 'images/SponsorForbes.png', 'images/SponsorFortune.png', 'images/SponsorRedBull.png']
+
+export type IList = {
+    icon?: JSX.Element,
+    title: string,
+    desc: string
+}

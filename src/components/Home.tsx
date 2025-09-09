@@ -6,12 +6,12 @@ import { motion } from "motion/react"
 function Home() {
   return (
     <>
-      <section id='home' className='min-h-[600px] flex items-center'>
+      <section id='home' className='min-h-[700px] flex items-center'>
         <div className="max-w-7xl mx-auto grid grid-cols-2 items-center px-3">
           <motion.div
-              initial={{ opacity:0, x:-20 }}
-              animate={{ opacity:1, x:0 }}
-              transition={{ duration: 1 }}  >
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}  >
             <div className="space-y-4">
               <div className="relative text-8xl font-bold text-accent">
                 <p>EVOGYM</p>
@@ -25,14 +25,11 @@ function Home() {
               </div>
             </div>
           </motion.div >
-          <motion.div initial={{ opacity:0, x:20 }}
-              animate={{ opacity:1, x:0 }}
-              transition={{ duration: 1 }}>
+          <motion.div initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}>
             <img src={ImgHome} alt="" />
           </motion.div>
-          {/* <div className="">
-            <img src={ImgHome} alt="" />
-          </div> */}
         </div>
         <img src="../assets/SponsorForbes.png" alt="" />
       </section>
