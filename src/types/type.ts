@@ -16,3 +16,9 @@ export type IList = {
     title: string,
     desc: string
 }
+
+export type TSlider = {
+    title: string,
+    description?: string,
+    image: string
+}

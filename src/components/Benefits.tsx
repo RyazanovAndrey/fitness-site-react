@@ -35,7 +35,7 @@ const Benefits = () => {
         <div className="max-w-7xl mx-auto px-3 py-20 grid grid-cols-2 items-center">
           <img src={Image} alt="" />
           <div className="relative space-y-5">
-            <div className="text-2xl font-bold">MILLIONS OF HAPPY MEMBERS GETTING <span className="text-[#FE6A6C]">FIT</span></div>
+            <Title>MILLIONS OF HAPPY MEMBERS GETTING <span className="text-[#FE6A6C]">FIT</span></Title>
             <p>Nascetur aenean massa auctor tincidunt. Iaculis potenti amet egestas ultrices consectetur adipiscing ultricies enim. Pulvinar fames vitae vitae quis. Quis amet vulputate tincidunt at in nulla nec. Consequat sed facilisis dui sit egestas ultrices tellus. Ullamcorper arcu id pretium sapien proin integer nisl. Felis orci diam odio.
             </p>
             <p>Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est tellus quam porttitor. Mauris velit euismod elementum arcu neque facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit enim mattis odio in risus nunc.</p>

@@ -1,6 +1,7 @@
 import Header from "@/components/Header"
 import Home from "@/components/Home"
 import Benefits from "./components/Benefits"
+import Classes from "./components/Classes"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Home />
       <Benefits />
+      <Classes />
     </>
   )
 }
