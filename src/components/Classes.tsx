@@ -10,7 +10,7 @@ import SliderCard from "./SliderCard";
 
 const Classes = () => {
     return (
-        <section className="max-w-7xl mx-auto px-3 text-accent">
+        <section className="max-w-7xl mx-auto px-3 text-accent mb-20" id="classes">
             <div className="max-w-2xl space-y-10">
                 <Title>OUR CLASSES</Title>
                 <p>Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est tellus quam porttitor. Mauris velit euismod elementum arcu neque facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit enim mattis odio in risus nunc.</p>

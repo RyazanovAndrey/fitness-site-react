@@ -2,6 +2,7 @@ import Header from "@/components/Header"
 import Home from "@/components/Home"
 import Benefits from "./components/Benefits"
 import Classes from "./components/Classes"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <Benefits />
       <Classes />
+      <Footer />
     </>
   )
 }

@@ -1,11 +1,11 @@
 import type { JSX } from "react"
 
-export type SectionId = '#home' | '#benefits' | '#ourclasses' | '#contacts'
+export type SectionId = '#home' | '#benefits' | '#classes' | '#contacts'
 
 export const navLinks: { href: SectionId, title: string }[] = [
     { href: '#home', title: 'Home' },
     { href: '#benefits', title: 'Benefits' },
-    { href: '#ourclasses', title: 'Ourclasses' },
+    { href: '#classes', title: 'Ourclasses' },
     { href: '#contacts', title: 'Contacts' },
 ]
 
